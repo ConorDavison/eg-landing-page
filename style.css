@@ -1,0 +1,32 @@
+body {
+    background: url(car11.jpg) no-repeat center center fixed;
+    background-size: cover;
+    
+}
+.overlay{
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* msie */
+    background-color: #084017;
+    height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+    z-index: -1;
+    position: fixed;
+}
+
+.hero {
+    color: #d1be11;
+    margin-top: 20%;
+    text-align: center;
+    font-size: 70px;
+    letter-spacing: -0.05em;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.ima{
+    height: 100px;
+    width: 200px;
+
+}
